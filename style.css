@@ -52,3 +52,44 @@ body {
 .search button img {
   width: 24px;
 }
+
+.weather {
+  color: white;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 2px solid black;
+  margin: 20px auto 30px;
+}
+
+.details {
+  color: antiquewhite;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.humidity {
+  display: flex;
+  border: 2px solid black;
+  margin: 20px;
+}
+
+.humidity h4 {
+  display: block;
+  font-size: xx-large;
+  font-weight: 100;
+  line-height: 1;
+  margin-left: -50px;
+}
+
+.humidity img {
+  height: 40px;
+  width: fit-content;
+  height: max-content;
+}
+
+.speed {
+  display: flex;
+  border: 2px solid black;
+  margin: 20px;
+}
